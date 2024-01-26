@@ -48,12 +48,21 @@ require_once __DIR__ . '/Models/product.php';
 <main>
 <div class="container">
     <div class="row">
-            <div class="card" style="">
-                <img src=<?php echo $product->image;?>
-                <div class="card-body">
-                    <h5 class="card-title"><?php echo $product->title; ?></h5>
-                    <p class="card-text">Prezzo: <?php echo $product->price; ?> €</p>
-        </div>
+    <?php
+        foreach ($foodDogs as $product) {
+    ?>
+            <div class="col-md-4">
+                <div class="card">
+                <img src="<?php echo $product->getImage(); ?>" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title"><?php echo $product->getTitle(); ?></h5>
+                        <p class="card-text">Prezzo: <?php echo $product->getPrice(); ?> €</p>
+                    </div>
+                </div>
+            </div>
+    <?php
+        }
+    ?>
         </div>
     </div>
 </div>
