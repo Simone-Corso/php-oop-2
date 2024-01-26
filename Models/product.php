@@ -26,8 +26,28 @@
 
         }
     
-    
+
+/**
+ * inserirò il metodo per title,image e price
+ */
+
+ public function getImage(){
+    return $this->image;
+}
+
+public function getTitle(){
+    return $this->title;
+}
+
+public function getPrice(){
+    return $this->price;
+}
+
+
     }
+
+
+
 
     /**
      * Andrò a creare dei prodotti per i cani
