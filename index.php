@@ -49,20 +49,20 @@ require_once __DIR__ . '/Models/product.php';
 <div class="container">
     <div class="row">
     <?php
-        foreach ($foodDogs as $product) {
-    ?>
-            <div class="col-md-4">
-                <div class="card">
-                <img src="<?php echo $product->getImage(); ?>" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title"><?php echo $product->getTitle(); ?></h5>
-                        <p class="card-text">Prezzo: <?php echo $product->getPrice(); ?> €</p>
-                    </div>
-                </div>
+foreach ($foodDogs as $product) {
+?>
+    <div class="col-md-4">
+        <div class="card">
+            <img src="<?= ($product->image) ?>" class="card-img-top" alt="<?=($product->title) ?>">
+            <div class="card-body">
+                <h5 class="card-title"><?= ($product->title) ?></h5>
+                <p class="card-text">Prezzo: <?= ($product->price) ?> €</p>
             </div>
-    <?php
-        }
-    ?>
+        </div>
+    </div>
+<?php
+}
+?>
         </div>
     </div>
 </div>
