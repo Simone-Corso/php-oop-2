@@ -52,8 +52,8 @@ require_once __DIR__ . '/Models/product.php';
 foreach ($foodDogs as $product) {
     
 ?>
-    <div class="col-md-2">
-        <div class="card">
+    <div class="col-md-2 p-3 ">
+        <div class="card h-100">
             <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title"><?php echo ($product->title) ?></h5>
@@ -75,8 +75,8 @@ foreach ($foodDogs as $product) {
     <?php
 foreach ($gamesDogs as $product) {
 ?>
-    <div class="col-md-2">
-        <div class="card">
+    <div class="col-md-2 p-3">
+        <div class="card h-100">
             <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title"><?php echo ($product->title) ?></h5>
@@ -98,8 +98,8 @@ foreach ($gamesDogs as $product) {
     <?php
 foreach ($kennelsDogs as $product) {
 ?>
-    <div class="col-md-2">
-        <div class="card">
+    <div class="col-md-2 p-3">
+        <div class="card h-100">
             <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title"><?php echo ($product->title) ?></h5>
