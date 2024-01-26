@@ -1,3 +1,17 @@
+<?php
+
+require_once __DIR__ . '/Models/product.php';
+
+/**
+ * qua inserirò Array dei prodotti per le cards
+ */
+
+ 
+
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="it">
 <head>
