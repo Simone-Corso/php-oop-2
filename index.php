@@ -35,8 +35,8 @@ require_once __DIR__ . '/Models/product.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Shop Online</title>
 </head>
 <body>
@@ -53,16 +53,17 @@ foreach ($foodDogs as $product) {
 ?>
     <div class="col-md-4">
         <div class="card">
-            <img src="<?php ($product->image) ?>" class="card-img-top" alt="<?php($product->title) ?>">
+            <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
-                <h5 class="card-title"><?php ($product->title) ?></h5>
-                <p class="card-text">Prezzo: <?php ($product->price) ?> €</p>
+                <h5 class="card-title"><?php echo ($product->title) ?></h5>
+                <p class="card-text">Prezzo: <?php echo ($product->price) ?> €</p>
             </div>
         </div>
     </div>
 <?php
 }
 ?>
+
         </div>
     </div>
 </div>
