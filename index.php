@@ -53,10 +53,10 @@ foreach ($foodDogs as $product) {
 ?>
     <div class="col-md-4">
         <div class="card">
-            <img src="<?= ($product->image) ?>" class="card-img-top" alt="<?=($product->title) ?>">
+            <img src="<?php ($product->image) ?>" class="card-img-top" alt="<?php($product->title) ?>">
             <div class="card-body">
-                <h5 class="card-title"><?= ($product->title) ?></h5>
-                <p class="card-text">Prezzo: <?= ($product->price) ?> €</p>
+                <h5 class="card-title"><?php ($product->title) ?></h5>
+                <p class="card-text">Prezzo: <?php ($product->price) ?> €</p>
             </div>
         </div>
     </div>
