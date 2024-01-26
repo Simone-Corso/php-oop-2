@@ -5,7 +5,7 @@
 *farò la classe per i prodotti.
  */
 
-    class Prodotto{
+    class Product {
         public $productId;
         public $title;
         public $description;

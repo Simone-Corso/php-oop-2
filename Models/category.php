@@ -4,7 +4,7 @@
  * inserisco la prima classe per le categorie
  */
 
-class Categoria {
+class Category {
     public $categoryId;
     public $name;
 
