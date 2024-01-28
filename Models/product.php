@@ -108,10 +108,10 @@ public function getPrice(){
       * Prodotti cucce per i gatti
       */
 
-      $kennelsCats= new Product (1, "Materasso Royal Blu" , "Comodissima e calda cuccia per cani, che diventerà presto il posticino preferito del tuo amico a quattro zampe! Sul suo morbido e alto bordo potrà accoccolarsi dolcemente e appoggiare comodamente la sua testolina.", 40,90 , "https://arcaplanet.vtexassets.com/arquivos/ids/276554/luna-e-teo-cuccia-royal-blu.jpg?v=638034254184470000");
-      $kennelsCats= new Product (2, "Cuccia Ovale Indi" , "Cuccia ovale morbida Indi Lovedì è una cuccia realizzata per il 70% in cotone e per il 30% in poliestere, con interno in ovatta di poliestere siliconato.", 30,90 , "https://arcaplanet.vtexassets.com/arquivos/ids/273272/LOVEDI-CUCCIA-OVALE-INDI-CM.60X52X18.jpg?v=637926932207030000");
-      $kennelsCats= new Product (3, "Cuccia Ovale Morbida Leopardata" , "La cuccia ovale Leopardata di Lovedì è una cuccia morbida per cani e gatti ideato per diventare l'angolino perfetto per sdraiarsi e riposarsi in totale comodità.", 49,90, "https://arcaplanet.vtexassets.com/arquivos/ids/273121/lovedi-cuccia-ovale-comfort-leopardata.jpg?v=637921054709400000");
-      $kennelsCats= new Product (4, "Cuccia Trilly Blu" , "La cuccia per cane e gatto Lovedì Trilly è disponibile in 5 misure e viene prodotta in cotone misto a poliestere che viene prelavato e pretrattato in modo da non restringersi o perdere colore dopo averlo lavato. ", 33,67 , "https://arcaplanet.vtexassets.com/arquivos/ids/260161/LD264---LD265---LD266---LD267---LD268--5-.jpg?v=637611632760930000");
+      $kennelsCats= new Product (1, "Casetta Tenda da sole" , "Casetta verde/bianco a 2 piani Tenda da sole per gatti e cani piccoli, in legno laccato verde composta da 2 vani interni & veranda con ringhiera.", "124,90" , "https://shop-cdn-m.mediazs.com/bilder/casetta/tenda/da/sole/4/400/100823_pla_katzenhaus_sonnendach_fg_5059_4.jpg");
+      $kennelsCats= new Product (2, "Casetta gioco Maisonette" , "Casetta gioco Maisonette in legno resistente alle intemperie, con tetto bitumato rosso, terrazzino protetto da ringhiera e scaletta.", "89,90" , "https://shop-cdn-m.mediazs.com/bilder/casetta/gioco/maisonette/1/400/100822_katzenhaus_maisonette_fg_5055_1.jpg");
+      $kennelsCats= new Product (3, "Casetta per gatti piccoli Prince " , "Favolosa Casetta per gatti piccoli Prince, composta da terrazza panoramica sul tetto camera da letto da sogno","67,90", "https://shop-cdn-m.mediazs.com/bilder/casetta/per/gatti/e/cani/piccoli/prince/9/400/37836_pla_katzenhaus_prince_fg_4250_9.jpg");
+      $kennelsCats= new Product (4, "Nicchia Aumüller in vimini con cuscino" , " Nicchia per gatti, con maniglia, porticina con griglia rimovibile, Made in Germany.", "64,89" , "https://shop-cdn-m.mediazs.com/bilder/nicchia/aumller/in/vimini/con/cuscino/1/400/78349_pla_aumueller_korbhoehle_1.jpg");
 
       ?>
 
