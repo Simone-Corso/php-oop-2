@@ -1,3 +1,15 @@
+body{
+    background-color: bisque;
+}
+
 .img.image-dog{
     height: 75px;
+}
+
+.product-card {
+    transition: transform 0.5s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.1);
 }

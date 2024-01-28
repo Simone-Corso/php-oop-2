@@ -59,7 +59,7 @@ $kennelsCats = [
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Shop Online</title>
     
 </head>
@@ -99,7 +99,7 @@ $kennelsCats = [
 foreach ($foodDogs as $product) {
     
 ?>
-    <div class="col-md-2 p-3 ">
+    <div class="product-card col-md-2 p-3 ">
         <div class="card h-100">
             <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
@@ -122,7 +122,7 @@ foreach ($foodDogs as $product) {
     <?php
 foreach ($gamesDogs as $product) {
 ?>
-    <div class="col-md-2 p-3">
+    <div class="product-card col-md-2 p-3">
         <div class="card h-100">
             <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
@@ -145,7 +145,7 @@ foreach ($gamesDogs as $product) {
     <?php
 foreach ($kennelsDogs as $product) {
 ?>
-    <div class="col-md-2 p-3">
+    <div class="product-card col-md-2 p-3">
         <div class="card h-100">
             <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
@@ -163,7 +163,9 @@ foreach ($kennelsDogs as $product) {
     </div>
 </div>
 
-<h1>Gatti</h1>
+<h1 class="title-gatti text-center">
+    Gatti
+</h1>
 
 <div class="container">
     <div class="row d-flex justify-content-center text-center">
@@ -171,7 +173,7 @@ foreach ($kennelsDogs as $product) {
 foreach ($foodCats as $product) {
 
 ?>
-    <div class="col-md-2 p-3 ">
+    <div class="product-card col-md-2 p-3 ">
         <div class="card h-100">
             <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
@@ -195,7 +197,7 @@ foreach ($foodCats as $product) {
 foreach ($gamesCats as $product) {
 
 ?>
-    <div class="col-md-2 p-3 ">
+    <div class="product-card col-md-2 p-3 ">
         <div class="card h-100">
             <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
@@ -219,7 +221,7 @@ foreach ($gamesCats as $product) {
 foreach ($kennelsCats as $product) {
 
 ?>
-    <div class="col-md-2 p-3 ">
+    <div class="product-card col-md-2 p-3 ">
         <div class="card h-100">
             <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
@@ -241,8 +243,5 @@ foreach ($kennelsCats as $product) {
 
 </main>
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
