@@ -88,7 +88,7 @@ public function getPrice(){
       * Prodotti cibo per gatti
       */
 
-      $foodCats= new Product (1, "Ket Cat Adult Bocconcini 720 gr" "Ket Cat Adult Bocconcini è l'alimento umido per gatti nelle pratiche lattine da 720 gr.", "1,90","https://www.isoladeitesori.it/dw/image/v2/BGRZ_PRD/on/demandware.static/-/Sites-it-master-catalog/default/dw6e622f32/143643-lt-720gr-bocc.-pollo-e-tacchino.png?sw=800&sh=800");
+      $foodCats= new Product (1, "Ket Cat Adult Bocconcini 720 gr", "Ket Cat Adult Bocconcini è l'alimento umido per gatti nelle pratiche lattine da 720 gr.", "1,90","https://www.isoladeitesori.it/dw/image/v2/BGRZ_PRD/on/demandware.static/-/Sites-it-master-catalog/default/dw6e622f32/143643-lt-720gr-bocc.-pollo-e-tacchino.png?sw=800&sh=800");
       $foodCats= new Product (2, "Matisse Superpremium Cat Neutered Salmone " , "Matisse Sterilizzato al Salmone è un alimento completo studiato per le esigenze del vostro gatto sterilizzato. ", "9,25", "https://www.bauzaar.it/media/catalog/product/g/r/grafiche-magento-bauzaar_-_2023-08-02t165805.048.jpg?width=700&height=700&store=default&image-type=image");
       $foodCats= new Product (3, "Stuzzy Cat Patè cotto al vapore per Gatti 100 gr " , "Stuzzy Cat Patè cotto al vapore per Gatti 100 gr è un alimento umido completo ad alta digeribilità per gatti adulti,", "16,64", "https://egress.storeden.net/gallery/6123799c5fb8e0512818534b");
       $foodCats= new Product (4, "Monge Gemon Cat Adult Bocconcini 415 gr." , "Monge Gemon Cat Bocconcini 415 gr è un cibo umido in lattina per gatti adulti disponibile in diverse ricette tutte completamente naturali e realizzate con carni italiane di altissima qualità. ", "24,90", "https://egress.storeden.net/jpg/5f90595ebe7ea02372aad40b");

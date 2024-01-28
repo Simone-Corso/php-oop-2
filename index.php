@@ -28,27 +28,27 @@ require_once __DIR__ . '/Models/product.php';
                 new Product (4, "Cuccia Trilly Blu" , "La cuccia per cane e gatto Lovedì Trilly è disponibile in 5 misure e viene prodotta in cotone misto a poliestere che viene prelavato e pretrattato in modo da non restringersi o perdere colore dopo averlo lavato. ", "33,67" , "https://arcaplanet.vtexassets.com/arquivos/ids/260161/LD264---LD265---LD266---LD267---LD268--5-.jpg?v=637611632760930000"),
  ];
 
- $foddCats = [
-                new Product (1, "Ket Cat Adult Bocconcini 720 gr" "Ket Cat Adult Bocconcini è l'alimento umido per gatti nelle pratiche lattine da 720 gr.", "1,90","https://www.isoladeitesori.it/dw/image/v2/BGRZ_PRD/on/demandware.static/-/Sites-it-master-catalog/default/dw6e622f32/143643-lt-720gr-bocc.-pollo-e-tacchino.png?sw=800&sh=800");
-                new Product (2, "Matisse Superpremium Cat Neutered Salmone " , "Matisse Sterilizzato al Salmone è un alimento completo studiato per le esigenze del vostro gatto sterilizzato. ", "9,25", "https://www.bauzaar.it/media/catalog/product/g/r/grafiche-magento-bauzaar_-_2023-08-02t165805.048.jpg?width=700&height=700&store=default&image-type=image");
-                new Product (3, "Stuzzy Cat Patè cotto al vapore per Gatti 100 gr " , "Stuzzy Cat Patè cotto al vapore per Gatti 100 gr è un alimento umido completo ad alta digeribilità per gatti adulti,", "16,64", "https://egress.storeden.net/gallery/6123799c5fb8e0512818534b");
-                new Product (4, "Monge Gemon Cat Adult Bocconcini 415 gr." , "Monge Gemon Cat Bocconcini 415 gr è un cibo umido in lattina per gatti adulti disponibile in diverse ricette tutte completamente naturali e realizzate con carni italiane di altissima qualità. ", "24,90", "https://egress.storeden.net/jpg/5f90595ebe7ea02372aad40b");
+ $foodCats = [
+                new Product (1, "Ket Cat Adult Bocconcini 720 gr","Ket Cat Adult Bocconcini è l'alimento umido per gatti nelle pratiche lattine da 720 gr.", "1,90","https://www.isoladeitesori.it/dw/image/v2/BGRZ_PRD/on/demandware.static/-/Sites-it-master-catalog/default/dw6e622f32/143643-lt-720gr-bocc.-pollo-e-tacchino.png?sw=800&sh=800"),
+                new Product (2, "Matisse Superpremium Cat Neutered Salmone " , "Matisse Sterilizzato al Salmone è un alimento completo studiato per le esigenze del vostro gatto sterilizzato. ", "9,25", "https://www.bauzaar.it/media/catalog/product/g/r/grafiche-magento-bauzaar_-_2023-08-02t165805.048.jpg?width=700&height=700&store=default&image-type=image"),
+                new Product (3, "Stuzzy Cat Patè cotto al vapore per Gatti 100 gr " , "Stuzzy Cat Patè cotto al vapore per Gatti 100 gr è un alimento umido completo ad alta digeribilità per gatti adulti,", "16,64", "https://egress.storeden.net/gallery/6123799c5fb8e0512818534b"),
+                new Product (4, "Monge Gemon Cat Adult Bocconcini 415 gr." , "Monge Gemon Cat Bocconcini 415 gr è un cibo umido in lattina per gatti adulti disponibile in diverse ricette tutte completamente naturali e realizzate con carni italiane di altissima qualità. ", "24,90", "https://egress.storeden.net/jpg/5f90595ebe7ea02372aad40b"),
  ];
 
  $gamesCats = [
 
-                new Product (1, "Cannetta gioco TIAKI Pesce con piume" , "Cannetta gioco per gatti, con ciondolo, spago in cotone, bastoncino liscio in vero legno, in 4 colori ", "3,49" , "https://shop-cdn-m.mediazs.com/bilder/met/prezzo/cannetta/gioco/tiaki/pesce/con/piume/6/400/351997_pla_fish_feather_cat_dagler_fg_0927_6.jpg");
-                new Product (2, "Graffiatoio Onda" , "Graffiatoio per gatti, realizzato in cartone ondulato, riciclabile al 100%. Ideale per rifarsi le unghie, giocare o sonnecchiare!", "8,90" , "https://shop-cdn-m.mediazs.com/bilder/graffiatoio/onda/3/400/jan_mix_3_71_3.jpg");
-                new Product (3, "Topino sonoro con catnip" , "Topino sonoro con catnip, in peluche e feltro rosso, con microchip integrato per effetti sonori realistici.", "5,78", "https://shop-cdn-m.mediazs.com/bilder/topino/sonoro/con/catnip/5/400/55405_PLA_Katzenspielzeug_Maus_mit_Katzenminze_und_Stimme_FG_DSC0500_5.jpg");
-                new Product (4, "Gioco per gatti Felton" , "Gioco versatile Felton per gatti, con bastoncino in matatabi che stimola al gioco", "3,50" , "https://shop-cdn-m.mediazs.com/bilder/gioco/per/gatti/felton/2/400/197396_pla_katzenspielzeug_felton_fg_8212_2.jpg");
+                new Product (1, "Cannetta gioco TIAKI Pesce con piume" , "Cannetta gioco per gatti, con ciondolo, spago in cotone, bastoncino liscio in vero legno, in 4 colori ", "3,49" , "https://shop-cdn-m.mediazs.com/bilder/met/prezzo/cannetta/gioco/tiaki/pesce/con/piume/6/400/351997_pla_fish_feather_cat_dagler_fg_0927_6.jpg"),
+                new Product (2, "Graffiatoio Onda" , "Graffiatoio per gatti, realizzato in cartone ondulato, riciclabile al 100%. Ideale per rifarsi le unghie, giocare o sonnecchiare!", "8,90" , "https://shop-cdn-m.mediazs.com/bilder/graffiatoio/onda/3/400/jan_mix_3_71_3.jpg"),
+                new Product (3, "Topino sonoro con catnip" , "Topino sonoro con catnip, in peluche e feltro rosso, con microchip integrato per effetti sonori realistici.", "5,78", "https://shop-cdn-m.mediazs.com/bilder/topino/sonoro/con/catnip/5/400/55405_PLA_Katzenspielzeug_Maus_mit_Katzenminze_und_Stimme_FG_DSC0500_5.jpg"),
+                new Product (4, "Gioco per gatti Felton" , "Gioco versatile Felton per gatti, con bastoncino in matatabi che stimola al gioco", "3,50" , "https://shop-cdn-m.mediazs.com/bilder/gioco/per/gatti/felton/2/400/197396_pla_katzenspielzeug_felton_fg_8212_2.jpg"),
 
       ];
 
 $kennelsCats = [
-                new Product (1, "Casetta Tenda da sole" , "Casetta verde/bianco a 2 piani Tenda da sole per gatti e cani piccoli, in legno laccato verde composta da 2 vani interni & veranda con ringhiera.", "124,90" , "https://shop-cdn-m.mediazs.com/bilder/casetta/tenda/da/sole/4/400/100823_pla_katzenhaus_sonnendach_fg_5059_4.jpg");
-                 new Product (2, "Casetta gioco Maisonette" , "Casetta gioco Maisonette in legno resistente alle intemperie, con tetto bitumato rosso, terrazzino protetto da ringhiera e scaletta.", "89,90" , "https://shop-cdn-m.mediazs.com/bilder/casetta/gioco/maisonette/1/400/100822_katzenhaus_maisonette_fg_5055_1.jpg");
-                new Product (3, "Casetta per gatti piccoli Prince " , "Favolosa Casetta per gatti piccoli Prince, composta da terrazza panoramica sul tetto camera da letto da sogno","67,90", "https://shop-cdn-m.mediazs.com/bilder/casetta/per/gatti/e/cani/piccoli/prince/9/400/37836_pla_katzenhaus_prince_fg_4250_9.jpg");
-                 new Product (4, "Nicchia Aumüller in vimini con cuscino" , " Nicchia per gatti, con maniglia, porticina con griglia rimovibile, Made in Germany.", "64,89" , "https://shop-cdn-m.mediazs.com/bilder/nicchia/aumller/in/vimini/con/cuscino/1/400/78349_pla_aumueller_korbhoehle_1.jpg");
+                new Product (1, "Casetta Tenda da sole" , "Casetta verde/bianco a 2 piani Tenda da sole per gatti e cani piccoli, in legno laccato verde composta da 2 vani interni & veranda con ringhiera.", "124,90" , "https://shop-cdn-m.mediazs.com/bilder/casetta/tenda/da/sole/4/400/100823_pla_katzenhaus_sonnendach_fg_5059_4.jpg"),
+                 new Product (2, "Casetta gioco Maisonette" , "Casetta gioco Maisonette in legno resistente alle intemperie, con tetto bitumato rosso, terrazzino protetto da ringhiera e scaletta.", "89,90" , "https://shop-cdn-m.mediazs.com/bilder/casetta/gioco/maisonette/1/400/100822_katzenhaus_maisonette_fg_5055_1.jpg"),
+                new Product (3, "Casetta per gatti piccoli Prince " , "Favolosa Casetta per gatti piccoli Prince, composta da terrazza panoramica sul tetto camera da letto da sogno","67,90", "https://shop-cdn-m.mediazs.com/bilder/casetta/per/gatti/e/cani/piccoli/prince/9/400/37836_pla_katzenhaus_prince_fg_4250_9.jpg"),
+                 new Product (4, "Nicchia Aumüller in vimini con cuscino" , " Nicchia per gatti, con maniglia, porticina con griglia rimovibile, Made in Germany.", "64,89" , "https://shop-cdn-m.mediazs.com/bilder/nicchia/aumller/in/vimini/con/cuscino/1/400/78349_pla_aumueller_korbhoehle_1.jpg"),
 ];
 
 
@@ -146,6 +146,80 @@ foreach ($gamesDogs as $product) {
 foreach ($kennelsDogs as $product) {
 ?>
     <div class="col-md-2 p-3">
+        <div class="card h-100">
+            <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title"><?php echo ($product->title) ?></h5>
+                <p class="card-text">Prezzo: <?php echo ($product->price) ?> €</p>
+                <p class="description">description <?php echo ($product->description)?></p>
+            </div>
+        </div>
+    </div>
+<?php
+}
+?>
+
+        </div>
+    </div>
+</div>
+
+<h1>Gatti</h1>
+
+<div class="container">
+    <div class="row d-flex justify-content-center text-center">
+    <?php
+foreach ($foodCats as $product) {
+
+?>
+    <div class="col-md-2 p-3 ">
+        <div class="card h-100">
+            <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title"><?php echo ($product->title) ?></h5>
+                <p class="card-text">Prezzo: <?php echo ($product->price) ?> €</p>
+                <p class="description">description <?php echo ($product->description)?></p>
+            </div>
+        </div>
+    </div>
+<?php
+}
+?>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row d-flex justify-content-center text-center">
+    <?php
+foreach ($gamesCats as $product) {
+
+?>
+    <div class="col-md-2 p-3 ">
+        <div class="card h-100">
+            <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title"><?php echo ($product->title) ?></h5>
+                <p class="card-text">Prezzo: <?php echo ($product->price) ?> €</p>
+                <p class="description">description <?php echo ($product->description)?></p>
+            </div>
+        </div>
+    </div>
+<?php
+}
+?>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row d-flex justify-content-center text-center">
+    <?php
+foreach ($kennelsCats as $product) {
+
+?>
+    <div class="col-md-2 p-3 ">
         <div class="card h-100">
             <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
