@@ -59,6 +59,7 @@ $kennelsCats = [
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Shop Online</title>
     
@@ -66,7 +67,7 @@ $kennelsCats = [
 <body>
 
 <header>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Pet-Shop</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -95,7 +96,7 @@ $kennelsCats = [
 <main>
 
 <h1 class="title-cani text-center mt-4">
-    cani
+    Cibo per cani
 </h1>
 <div class="container">
     <div class="row d-flex justify-content-center text-center">
@@ -121,6 +122,10 @@ foreach ($foodDogs as $product) {
     </div>
 </div>
 
+<h1 class="title-games text-center mt-4">
+    Giochi per cani
+</h1>
+
 <div class="container">
     <div class="row d-flex justify-content-center text-center">
     <?php
@@ -143,6 +148,10 @@ foreach ($gamesDogs as $product) {
         </div>
     </div>
 </div>
+
+<h1 class="title-kennels text-center mt-4">
+    Cucce per cani
+</h1>
 
 <div class="container">
     <div class="row d-flex justify-content-center text-center">
@@ -168,7 +177,7 @@ foreach ($kennelsDogs as $product) {
 </div>
 
 <h1 class="title-gatti text-center mt-4 mb-4">
-    Gatti
+    Cibo per gatti
 </h1>
 
 <div class="container">
@@ -195,6 +204,11 @@ foreach ($foodCats as $product) {
     </div>
 </div>
 
+
+<h1 class="title-games text-center mt-4">
+    Giochi per gatti
+</h1>
+
 <div class="container">
     <div class="row d-flex justify-content-center text-center">
     <?php
@@ -218,6 +232,10 @@ foreach ($gamesCats as $product) {
         </div>
     </div>
 </div>
+
+<h1 class="title-kennels text-center mt-4">
+    Cucce per gatti
+</h1>
 
 <div class="container">
     <div class="row d-flex justify-content-center text-center">
