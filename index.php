@@ -78,10 +78,10 @@ $kennelsCats = [
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Area Cani</a>
+          <a class="nav-link" href="#">Cani</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Area Gatti</a>
+          <a class="nav-link" href="#">Gatti</a>
         </li>
       </ul>
       <span class="navbar-text">
@@ -93,19 +93,23 @@ $kennelsCats = [
 </header>
 
 <main>
+
+<h1 class="title-cani text-center mt-4">
+    cani
+</h1>
 <div class="container">
     <div class="row d-flex justify-content-center text-center">
     <?php
 foreach ($foodDogs as $product) {
     
 ?>
-    <div class="product-card col-md-2 p-3 ">
+    <div class="product-card col-md-2 p-4 mt-5 ">
         <div class="card h-100">
             <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title"><?php echo ($product->title) ?></h5>
-                <p class="card-text">Prezzo: <?php echo ($product->price) ?> €</p>
-                <p class="description">description <?php echo ($product->description)?></p>
+                <p class="card-text"><?php echo ($product->price) ?> €</p>
+                <p class="description"><?php echo ($product->description)?></p>
             </div>
         </div>
     </div>
@@ -122,13 +126,13 @@ foreach ($foodDogs as $product) {
     <?php
 foreach ($gamesDogs as $product) {
 ?>
-    <div class="product-card col-md-2 p-3">
+    <div class="product-card col-md-2 p-4">
         <div class="card h-100">
             <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title"><?php echo ($product->title) ?></h5>
-                <p class="card-text">Prezzo: <?php echo ($product->price) ?> €</p>
-                <p class="description">description <?php echo ($product->description)?></p>
+                <p class="card-text"> <?php echo ($product->price) ?> €</p>
+                <p class="description"><?php echo ($product->description)?></p>
             </div>
         </div>
     </div>
@@ -145,13 +149,13 @@ foreach ($gamesDogs as $product) {
     <?php
 foreach ($kennelsDogs as $product) {
 ?>
-    <div class="product-card col-md-2 p-3">
+    <div class="product-card col-md-2 p-4">
         <div class="card h-100">
             <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title"><?php echo ($product->title) ?></h5>
-                <p class="card-text">Prezzo: <?php echo ($product->price) ?> €</p>
-                <p class="description">description <?php echo ($product->description)?></p>
+                <p class="card-text"><?php echo ($product->price) ?> €</p>
+                <p class="description"> <?php echo ($product->description)?></p>
             </div>
         </div>
     </div>
@@ -163,7 +167,7 @@ foreach ($kennelsDogs as $product) {
     </div>
 </div>
 
-<h1 class="title-gatti text-center">
+<h1 class="title-gatti text-center mt-4 mb-4">
     Gatti
 </h1>
 
@@ -173,13 +177,13 @@ foreach ($kennelsDogs as $product) {
 foreach ($foodCats as $product) {
 
 ?>
-    <div class="product-card col-md-2 p-3 ">
+    <div class="product-card col-md-2 p-4 ">
         <div class="card h-100">
             <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title"><?php echo ($product->title) ?></h5>
-                <p class="card-text">Prezzo: <?php echo ($product->price) ?> €</p>
-                <p class="description">description <?php echo ($product->description)?></p>
+                <p class="card-text"> <?php echo ($product->price) ?> €</p>
+                <p class="description"> <?php echo ($product->description)?></p>
             </div>
         </div>
     </div>
@@ -197,13 +201,13 @@ foreach ($foodCats as $product) {
 foreach ($gamesCats as $product) {
 
 ?>
-    <div class="product-card col-md-2 p-3 ">
+    <div class="product-card col-md-2 p-4 ">
         <div class="card h-100">
             <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title"><?php echo ($product->title) ?></h5>
-                <p class="card-text">Prezzo: <?php echo ($product->price) ?> €</p>
-                <p class="description">description <?php echo ($product->description)?></p>
+                <p class="card-text"> <?php echo ($product->price) ?> €</p>
+                <p class="description"><?php echo ($product->description)?></p>
             </div>
         </div>
     </div>
@@ -226,8 +230,8 @@ foreach ($kennelsCats as $product) {
             <img src="<?php echo ($product->image) ?>" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title"><?php echo ($product->title) ?></h5>
-                <p class="card-text">Prezzo: <?php echo ($product->price) ?> €</p>
-                <p class="description">description <?php echo ($product->description)?></p>
+                <p class="card-text"><?php echo ($product->price) ?> €</p>
+                <p class="description"><?php echo ($product->description)?></p>
             </div>
         </div>
     </div>
