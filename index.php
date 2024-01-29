@@ -79,10 +79,10 @@ $kennelsCats = [
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Cani</a>
+          <a class="nav-link" href="#">Cani <i class="fa-solid fa-dog"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Gatti</a>
+          <a class="nav-link" href="#">Gatti <i class="fa-solid fa-cat"></i></a>
         </li>
       </ul>
       <span class="navbar-text">
@@ -96,7 +96,7 @@ $kennelsCats = [
 <main>
 
 <h1 class="title-cani text-center mt-4">
-    Cibo per cani
+    Cibo per cani <i class="fa-solid fa-dog"></i>
 </h1>
 <div class="container">
     <div class="row d-flex justify-content-center text-center">
@@ -123,7 +123,7 @@ foreach ($foodDogs as $product) {
 </div>
 
 <h1 class="title-games text-center mt-4">
-    Giochi per cani
+    Giochi per cani <i class="fa-solid fa-dog"></i>
 </h1>
 
 <div class="container">
@@ -150,7 +150,7 @@ foreach ($gamesDogs as $product) {
 </div>
 
 <h1 class="title-kennels text-center mt-4">
-    Cucce per cani
+    Cucce per cani <i class="fa-solid fa-dog"></i>
 </h1>
 
 <div class="container">
@@ -177,7 +177,7 @@ foreach ($kennelsDogs as $product) {
 </div>
 
 <h1 class="title-gatti text-center mt-4 mb-4">
-    Cibo per gatti
+    Cibo per gatti <i class="fa-solid fa-cat"></i>
 </h1>
 
 <div class="container">
@@ -206,7 +206,7 @@ foreach ($foodCats as $product) {
 
 
 <h1 class="title-games text-center mt-4">
-    Giochi per gatti
+    Giochi per gatti <i class="fa-solid fa-cat"></i>
 </h1>
 
 <div class="container">
@@ -234,7 +234,7 @@ foreach ($gamesCats as $product) {
 </div>
 
 <h1 class="title-kennels text-center mt-4">
-    Cucce per gatti
+    Cucce per gatti <i class="fa-solid fa-cat"></i>
 </h1>
 
 <div class="container">
